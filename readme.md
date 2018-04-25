@@ -4,6 +4,19 @@ ComposeEmail is a quick way to compose email inside any app and then allow the p
 
 ## Install
 
+Add to **gradle** in _allprojects_
+
+```
+maven { url 'https://jitpack.io' }
+```
+
+then add this
+
+```
+compile 'com.github.matteocrippa:ComposeEmail:0.0.1'
+```
+
+
 ## Usage
 
 Set once the application context to the shared object

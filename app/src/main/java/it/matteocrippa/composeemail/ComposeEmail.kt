@@ -24,7 +24,7 @@ class ComposeEmail private constructor() {
     fun send(to: Array<String>, subject: String, message: String, attachments: ArrayList<Uri>? = null, intentMessage: String = "") {
 
         val i = Intent(Intent.ACTION_SEND)
-        i.type = "*/*"
+        i.type = "message/rfc822"
 
         //add attachmensts
         attachments?.let {

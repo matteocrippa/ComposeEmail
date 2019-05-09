@@ -37,6 +37,6 @@ class ComposeEmail private constructor() {
         i.putExtra(Intent.EXTRA_SUBJECT, subject)
         i.putExtra(Intent.EXTRA_TEXT, message)
 
-        context?.startActivity(Intent.createChooser(i, intentMessage))
+        context?.startActivityForResult(Intent.createChooser(i, intentMessage))
     }
 }

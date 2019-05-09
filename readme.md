@@ -13,7 +13,7 @@ maven { url 'https://jitpack.io' }
 then add this
 
 ```
-implementation 'com.github.matteocrippa:ComposeEmail:0.0.1'
+implementation 'com.github.matteocrippa:ComposeEmail:0.0.4'
 ```
 
 
